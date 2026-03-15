@@ -1,6 +1,51 @@
 @media(max-width:520px){
-
-        .hero h1 {
-    font-size: clamp(1.9rem, 1vw, 2.7rem);
-        }
+.eyebrow, .notice {
+        font-size: .42rem;
+        padding: 7px 10px;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin: auto;
+    }
+          .hero h1 {
+        text-align: center;
+        font-size: clamp(.7rem, .5vw, 2.7rem);
+    }
+        .hero-copy, .hero-note, .section-head p, .card p, .service p, .proof p, .sample p, .compare p, .contact-card p {
+        font-size: .54rem;
+    }
+    .hero-actions .btn, .hero-actions .btn-secondary{
+        margin: auto;
+        width: 80%;
+    }
+        .hero-copy, .hero-note, .section-head p, .card p, .service p, .proof p, .sample p, .compare p, .contact-card p {
+        font-size: .34rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .reveal[data-delay="3"]{
+        display: none;
+    }
+        .section-head h2, .faq-panel h2, .cta-panel h2, .contact-card h2 {
+        font-size: 0.75rem;
+    }
+    .hint-p{
+        margin-top: 40px !important;
+    }
+    .h2-hint-wa{
+    font-size: clamp(1rem, 2vw, 3rem) !important;
+    text-align: center !important;
+    }
+    .cta-actions .btn, .cta-actions .btn-secondary, .contact-actions .btn, .contact-actions .btn-secondary{
+                width: 80%;
+        margin: auto;
+    }
+    .section-head h2, .faq-panel h2, .cta-panel h2, .contact-card h2{
+        text-align: center;
+    }
+    .card h3, .service h3, .proof h3, .sample h3, .compare h3, .contact-card h3{
+    font-size: 1rem;
+    text-align: center;
+}
 }
