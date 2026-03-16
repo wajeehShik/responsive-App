@@ -25,7 +25,9 @@
         margin-bottom: 16px;
     }
 
-
+    section {
+        padding: 20px 0;
+    }
 
     .reveal[data-delay="3"]{
         display: none;
