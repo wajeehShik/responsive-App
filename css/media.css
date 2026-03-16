@@ -1,6 +1,5 @@
 @media(max-width:520px){
-.eyebrow, .notice {
-               font-size: .52rem;
+.eyebrow, .notice {        font-size: .72rem;
         padding: 7px 10px;
         display: flex;
         justify-content: center;
@@ -19,11 +18,15 @@
     }
         .hero-copy, .hero-note, .section-head p, .card p, .service p, .proof p, .sample p, .compare p, .contact-card p {
         font-size: .77rem;
+        text-align: center;
         margin: auto;
         display: flex;
         justify-content: center;
         margin-bottom: 16px;
     }
+
+
+
     .reveal[data-delay="3"]{
         display: none;
     }
@@ -31,7 +34,9 @@
         font-size: 0.75rem;
     }
     .hint-p{
-        margin-top: 40px !important;
+
+    margin-top: 63px !important;
+    margin-right: -294px !important;
     }
     .h2-hint-wa{
     font-size: clamp(1rem, 2vw, 3rem) !important;
@@ -47,5 +52,8 @@
     .card h3, .service h3, .proof h3, .sample h3, .compare h3, .contact-card h3{
     font-size: 1rem;
     text-align: center;
+}
+.contact-card-mobile{
+    display: none;;
 }
 }
