@@ -50,6 +50,7 @@
         </ul>
         <a class="btn" href="#contact">احجز مكالمة استراتيجية</a>
       </div>
+      <div class="menu-overlay" id="menuOverlay"></div>
     </nav>
   </header>
 
@@ -508,6 +509,26 @@
         if (window.innerWidth > 860) closeMenu();
       });
     });
+
+    const menuOverlay = document.getElementById('menuOverlay');
+
+function closeMenu() {
+  mobileMenu.classList.remove('open');
+  menuOverlay?.classList.remove('show');
+  menuToggle.setAttribute('aria-expanded', 'false');
+  mobileMenu.setAttribute('aria-hidden', 'true');
+  menuToggle.textContent = '☰';
+}
+
+function openMenu() {
+  mobileMenu.classList.add('open');
+  menuOverlay?.classList.add('show');
+  menuToggle.setAttribute('aria-expanded', 'true');
+  mobileMenu.setAttribute('aria-hidden', 'false');
+  menuToggle.textContent = '✕';
+}
+
+menuOverlay?.addEventListener('click', closeMenu);
   </script>
 </body>
 </html>
