@@ -59,5 +59,51 @@
     display: none;;
 }
 
+footer{
+    padding: 18px 0 20px;
+    margin-top: 0;
+  }
 
+  .footer-card{
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 18px 16px;
+    border-radius: 18px;
+  }
+
+  .footer-card .logo{
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .footer-card p{
+    font-size: .86rem;
+    line-height: 1.9;
+    max-width: 100%;
+    margin-top: 6px;
+  }
+
+  .footer-meta{
+    margin-top: 8px;
+    font-size: .8rem;
+    opacity: .85;
+  }
+
+  .footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 6px;
+  }
+
+  .footer-links a{
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: rgba(255,255,255,.03);
+    font-size: .84rem;
+  }
 }
