@@ -1,28 +1,28 @@
 @media(max-width:520px){
 .eyebrow, .notice {
-        font-size: .42rem;
+               font-size: .52rem;
         padding: 7px 10px;
         display: flex;
         justify-content: center;
-        width: 200px;
+        width: 301px;
         margin: auto;
     }
           .hero h1 {
         text-align: center;
         font-size: clamp(.7rem, .5vw, 2.7rem);
     }
-        .hero-copy, .hero-note, .section-head p, .card p, .service p, .proof p, .sample p, .compare p, .contact-card p {
-        font-size: .54rem;
-    }
     .hero-actions .btn, .hero-actions .btn-secondary{
-        margin: auto;
-        width: 80%;
+                margin: auto;
+        width: 50%;
+        padding: 4px;
+        font-size: .64rem;
     }
         .hero-copy, .hero-note, .section-head p, .card p, .service p, .proof p, .sample p, .compare p, .contact-card p {
-        font-size: .34rem;
+        font-size: .47rem;
         margin: auto;
         display: flex;
         justify-content: center;
+        margin-bottom: 16px;
     }
     .reveal[data-delay="3"]{
         display: none;
