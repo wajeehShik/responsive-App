@@ -217,7 +217,16 @@ nav{
   transition: .25s ease;
   z-index: 9999;
 }
+#faq .container{
+  display: flex;
+  justify-content: center;
+}
 
+#faq .faq-panel{
+  width: 100%;
+  max-width: 760px;
+  margin-inline: auto;
+}
 .mobile-menu.open{
   opacity: 1;
   visibility: visible;
